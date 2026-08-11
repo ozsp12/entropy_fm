@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/branding/entropy-fm.png" alt="Entropy FM" width="720">
+  <img src="assets/branding/entropy-fm.png" alt="Entropy FM" width="520">
 </p>
 
 # Entropy FM
