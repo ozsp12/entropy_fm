@@ -6,13 +6,7 @@
 
 **Entropy FM** is an experimental music project focused on AI-generated music. The project explores generative AI as a creative instrument for composing songs, developing musical ideas, experimenting with styles, and producing audiovisual pieces around each release.
 
-The music is developed through an AI-assisted creative process that combines generative tools with human direction, thematic conception, selection, iteration, and curation. **Suno** is one of the principal platforms used in this process, and my current music experiments can be found at [suno.com/@olsp1982](https://suno.com/@olsp1982).
-
-The main public home of the project is the **Entropy FM YouTube channel**, where the finished songs and audiovisual productions are published:
-
-**YouTube:** [youtube.com/@entropyfm](https://www.youtube.com/@entropyfm)
-
-This repository serves as an archive for the project, bringing together music files, artwork, thumbnails, visual sequences, texts, and other material associated with Entropy FM releases.
+The music is developed through an AI-assisted creative process that combines generative tools with human direction, thematic conception, selection, iteration, and curation. **Suno** is one of the principal platforms used in this process, and my current music experiments can be found at [suno.com/@olsp1982](https://suno.com/@olsp1982). The main public home of the project is the **Entropy FM YouTube channel**, where the finished songs and audiovisual productions are published in the **YouTube** [youtube.com/@entropyfm](https://www.youtube.com/@entropyfm) This repository serves as an archive for the project, bringing together music files, artwork, thumbnails, visual sequences, texts, and other material associated with Entropy FM releases.
 
 # Music and audiovisual projects
 
