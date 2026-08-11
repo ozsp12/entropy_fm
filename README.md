@@ -4,83 +4,46 @@
 
 # Entropy FM
 
-**Entropy FM** is a music project and production archive for releases, audiovisual pieces, artwork, thumbnails, and related production material published through the **Entropy FM** channel.
+**Entropy FM** is an experimental music project centered on music created with artificial intelligence. The project explores generative AI as a creative instrument for composing songs, developing musical ideas, experimenting with styles, and producing audiovisual pieces around each release.
 
-The repository is organized as a media archive rather than a software package. Each musical project has its own directory, with audio, visual assets, and text or reference material separated by function. The public channel is available at [YouTube — Entropy FM](https://www.youtube.com/@entropyfm).
+The music is developed through an AI-assisted creative process that combines generative tools with human direction, thematic conception, selection, iteration, and curation. **Suno** is one of the principal platforms used in this process, and my current music experiments can be found at [suno.com/@olsp1982](https://suno.com/@olsp1982).
 
-## Entropy FM channel
+The main public home of the project is the **Entropy FM YouTube channel**, where the finished songs and audiovisual productions are published:
 
-- **YouTube:** https://www.youtube.com/@entropyfm
-- **Repository:** https://github.com/ozsp12/entropy_fm
+**YouTube:** [youtube.com/@entropyfm](https://www.youtube.com/@entropyfm)
 
-## Current catalog
+This repository serves as an archive for the project, bringing together music files, artwork, thumbnails, visual sequences, texts, and other material associated with Entropy FM releases.
 
-| Project | Material currently archived |
-|---|---|
-| **Eterno Retorno** | MP3 audio, square artwork, 16:9 visual assets |
-| **I Left My Home — Army Cadence** | Reference/adaptation text, YouTube text version, 16:9 and 9:16 thumbnails |
-| **Black Sun Spiral** | MP3 audio, 16:9 artwork, 9:16 artwork |
-| **Lugar de Amigo** | MP3 audio, landscape image sequence, 9:16 image sequence |
-| **Outcast Paradise** | MP3 audio, image sequence, thumbnail |
+## Music and audiovisual projects
 
-## Repository structure
+The repository currently includes material related to the following projects:
 
-```text
-entropy_fm/
-├── README.md
-├── assets/
-│   └── branding/
-│       ├── entropy-fm.png
-│       ├── entropy-fm-alt.png
-│       └── entropy-fm-small.png
-└── tracks/
-    ├── eterno-retorno/
-    │   ├── audio/
-    │   └── artwork/
-    │       ├── 1x1/
-    │       └── 16x9/
-    ├── i-left-my-home-army-cadence/
-    │   ├── artwork/
-    │   │   ├── 16x9/
-    │   │   └── 9x16/
-    │   └── text/
-    ├── black-sun-spiral/
-    │   ├── audio/
-    │   └── artwork/
-    │       ├── 16x9/
-    │       └── 9x16/
-    ├── lugar-de-amigo/
-    │   ├── audio/
-    │   └── artwork/
-    │       ├── landscape/
-    │       └── 9x16/
-    └── outcast-paradise/
-        ├── audio/
-        └── artwork/
-            └── sequence/
-```
+- **Eterno Retorno**
+- **I Left My Home — Army Cadence**
+- **Black Sun Spiral**
+- **Lugar de Amigo**
+- **Outcast Paradise**
 
-## Organization conventions
+New songs, experiments, visual material, and related production assets may be added as the Entropy FM catalog develops.
 
-The repository follows a small set of conventions intended to keep future releases predictable and easy to maintain:
+## About the project
 
-- Track directories use lowercase **kebab-case** names.
-- Audio masters and publication files are stored under `audio/`.
-- Visual assets are stored under `artwork/` and separated by aspect ratio when that information is known.
-- Sequential images use zero-padded names such as `01.png`, `02.png`, and `03.png` instead of generic or automatically generated filenames.
-- Channel-wide logos and visual identity files are stored under `assets/branding/`, independently of any individual track.
-- Lyrics, adaptations, source notes, and other textual production material are stored under `text/`.
+Entropy FM is not intended as a conventional software repository. It is a creative archive documenting an ongoing experiment with artificial intelligence, music, visual language, and digital production. The purpose is to preserve the material associated with the songs while maintaining a public record of the evolution of the project.
 
-## Media storage
-
-The repository currently stores MP3 and image assets directly in Git. This is practical at the present scale, but continued growth will eventually make ordinary Git history unnecessarily heavy. For a substantially larger catalog, **Git LFS** or release-oriented external storage should be considered for large binary assets while keeping metadata, documentation, and lightweight artwork in the repository.
+The use of AI is explicit rather than incidental: generative systems participate directly in the musical production process. The final selection, conceptual direction, organization of releases, and presentation of the project remain part of a broader human-directed creative workflow.
 
 ## Copyright and reuse
 
 Unless explicitly stated otherwise, the contents of this repository are **not released under an open-source or open-content license**. Original Entropy FM material remains under the rights of its respective author or creator.
 
-Some directories may contain reference material, source text, adaptations, or other material associated with third-party works. Such material remains subject to the rights of the respective copyright holders. Its presence in this repository does not imply transfer of ownership or unrestricted permission for reuse or redistribution.
+Some projects may contain reference material, adaptations, source texts, or material associated with third-party works. Such material remains subject to the rights of the respective copyright holders. Its presence in this repository does not imply transfer of ownership or unrestricted permission for reuse or redistribution.
+
+## Project links
+
+- **Entropy FM — YouTube:** https://www.youtube.com/@entropyfm
+- **Suno:** https://suno.com/@olsp1982
+- **GitHub repository:** https://github.com/ozsp12/entropy_fm
 
 ## Author
 
-**Dr. Osvaldo L. Santos-Pereira** — [Academic webpage](https://ozsp12.github.io/) · [Lattes](http://lattes.cnpq.br/6730251976463283) · [ORCID](https://orcid.org/0000-0003-2231-517X) · [Google Scholar](https://scholar.google.com/citations?user=HIZp0X8AAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Osvaldo-Santos-Pereira) · [GitHub](https://github.com/ozsp12) · [LinkedIn](https://www.linkedin.com/in/ozsp12) · [Substack](https://substack.com/@olsp1982) · [Medium](https://medium.com/@ozsp12) · [YouTube](https://www.youtube.com/@ozlsp12) · [X](https://x.com/ozsp12)
+**Dr. Osvaldo L. Santos-Pereira** — [Academic webpage](https://ozsp12.github.io/) · [Lattes](http://lattes.cnpq.br/6730251976463283) · [ORCID](https://orcid.org/0000-0003-2231-517X) · [Google Scholar](https://scholar.google.com/citations?user=HIZp0X8AAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Osvaldo-Santos-Pereira) · [GitHub](https://github.com/ozsp12) · [LinkedIn](https://www.linkedin.com/in/ozsp12) · [Substack](https://substack.com/@olsp1982) · [Medium](https://medium.com/@ozsp12) · [Suno](https://suno.com/@olsp1982) · [YouTube](https://www.youtube.com/@ozlsp12) · [X](https://x.com/ozsp12)
